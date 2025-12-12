@@ -1,0 +1,15 @@
+* text=auto
+
+# Explicitly set for Python
+*.py text eol=lf
+
+# Windows batch files keep CRLF
+*.bat text eol=crlf
+
+# Treat binaries as binary
+*.dll binary
+*.exe binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

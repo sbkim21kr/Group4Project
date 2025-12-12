@@ -1,0 +1,208 @@
+<!DOCTYPE Jobset>
+<Jobset capability="2" JobCount="1" Hardware="3" type="2" ActiveJob="1" version="21.0">
+    <Settings>
+        <Property value="0" name="Reset_Statistics"/>
+        <Property value="" name="Password"/>
+        <Property value="" name="AdditionalInfo"/>
+        <Property value="1" name="View_Enabled"/>
+    </Settings>
+    <Job Number="1">
+        <General>
+            <Property value="Rotate180" name="ArrangementType"/>
+            <Property value="0" name="Arrangement_enabled"/>
+            <Property value="Author" name="Author"/>
+            <Property value="" name="Base File"/>
+            <Property value="8Inputs_32Outputs" name="Beckhoff_IO"/>
+            <Property value="Disabled" name="Beckhoff_IO_In"/>
+            <Property value="0" name="Cycle_Timeout"/>
+            <Property value="Job" name="Description"/>
+            <Property value="" name="Domain_name"/>
+            <Property value="Disabled" name="ENIP_In"/>
+            <Property value="Disabled" name="Ethernet_In"/>
+            <Property value="2007" name="Ethernet_Port_In"/>
+            <Property value="2005" name="Ethernet_Port_Out"/>
+            <Property value="0" name="External_Illumination"/>
+            <Property value="0" name="External_Pin_Configuration"/>
+            <Property value="" name="Fail Folder"/>
+            <Property value="0" name="Features"/>
+            <Property value="10" name="File Number"/>
+            <Property value="12" name="Focal_Length"/>
+            <Property value="1.22" name="Gain"/>
+            <Property value="0.0.0.0" name="IP Address"/>
+            <Property value="3000" name="ImageProcessingTimeOut"/>
+            <Property value="Enabled" name="ImageTransmision"/>
+            <Property value="4" name="Image_Frame_Size"/>
+            <Property value="0" name="Image_Offset_Col"/>
+            <Property value="0" name="Image_Offset_Row"/>
+            <Property value="1" name="Image_Scaling"/>
+            <Property value="1" name="Images"/>
+            <Property value="1" name="Images Types"/>
+            <Property value="1" name="Internal_IO"/>
+            <Property value="61" name="Internal_Illumination"/>
+            <Property value="2025-11-17T13:31:07" name="JobCreated"/>
+            <Property value="2025-12-12T16:00:50" name="JobModified"/>
+            <Property value="0" name="Job_Timing_Delay"/>
+            <Property value="Gauss" name="KernelType1"/>
+            <Property value="Off" name="KernelType1Value"/>
+            <Property value="Erosion" name="KernelType2"/>
+            <Property value="Off" name="KernelType2Value"/>
+            <Property value="Dilation" name="KernelType3"/>
+            <Property value="Off" name="KernelType3Value"/>
+            <Property value="Mean" name="KernelType4"/>
+            <Property value="Off" name="KernelType4Value"/>
+            <Property value="Median_Separate" name="KernelType5"/>
+            <Property value="Off" name="KernelType5Value"/>
+            <Property value="0" name="Logical_O_Count"/>
+            <Property value="1" name="Max_Num_Cycles"/>
+            <Property value="0" name="Multishot_Active"/>
+            <Property value="height" name="Multishot_Channel"/>
+            <Property value="0" name="Multishot_CurvatureRange"/>
+            <Property value="1" name="Multishot_CurvatureRange_Active"/>
+            <Property value="1" name="Multishot_HeightRange_Auto"/>
+            <Property value="0" name="Multishot_HeightRange_Max"/>
+            <Property value="0" name="Multishot_HeightRange_Min"/>
+            <Property value="0" name="Multishot_LocalMean"/>
+            <Property value="1" name="Multishot_LocalMean_Active"/>
+            <Property value="0" name="Multishot_OffsetX"/>
+            <Property value="30" name="Multishot_Slant"/>
+            <Property value="Job1" name="Name"/>
+            <Property value="1" name="Numeric Results"/>
+            <Property value="" name="Pass Folder"/>
+            <Property value="" name="Password"/>
+            <Property value="Linear" name="Pixel_Response"/>
+            <Property value="2.8" name="Plate_Sigma"/>
+            <Property value="0" name="Preprocessing_enabled"/>
+            <Property value="0" name="ProfinetIO"/>
+            <Property value="Disabled" name="RS422_In"/>
+            <Property value="Off" name="RamDisk"/>
+            <Property value="Off" name="RecorderImages"/>
+            <Property value="480" name="Resolution_Height"/>
+            <Property value="736" name="Resolution_Width"/>
+            <Property value="0" name="ResultDelay"/>
+            <Property value="0" name="ResultPeriod"/>
+            <Property value="19200 Bd" name="Serial_Baudrate"/>
+            <Property value="8N1" name="Serial_Parity"/>
+            <Property value="None" name="Serial_Type"/>
+            <Property value="" name="Shared_folder_name"/>
+            <Property value="2.654" name="Shutter"/>
+            <Property value="1.00" name="Shutter_Factors"/>
+            <Property value="0" name="Shutter_Variation"/>
+            <Property value="0" name="Signalling"/>
+            <Property value="2" name="Storage Mode"/>
+            <Property value="" name="TOF_CalibrateImageFlag"/>
+            <Property value="Depth" name="TOF_Channel"/>
+            <Property value="0" name="TOF_Depth_Range_Max"/>
+            <Property value="0" name="TOF_Depth_Range_Min"/>
+            <Property value="" name="TOF_ExpectZMode"/>
+            <Property value="0" name="TOF_Expected_Depth"/>
+            <Property value="0" name="TOF_Illumination"/>
+            <Property value="160" name="TOF_ROIHeight"/>
+            <Property value="160" name="TOF_ROIHeightOffset"/>
+            <Property value="368" name="TOF_ROIWidth"/>
+            <Property value="184" name="TOF_ROIWidthOffset"/>
+            <Property value="0" name="TOF_Shutter_Speed_Ratio"/>
+            <Property value="0" name="TOF_Subframe"/>
+            <Property value="0" name="TriggerDelay"/>
+            <Property value="0" name="TriggerLockTime"/>
+            <Property value="Triggered" name="TriggerMode"/>
+            <Property value="0" name="Type"/>
+            <Property value="" name="User Name"/>
+            <Property value="1" name="White_balance_active"/>
+            <Property value="36" name="Whitebalance_blue"/>
+            <Property value="62" name="Whitebalance_green"/>
+            <Property value="53" name="Whitebalance_red"/>
+        </General>
+        <Calibration>
+            <Property value="0" name="Calibration_Valid"/>
+            <Property value="None" name="Calibration_Method"/>
+            <Calibration_Scaling/>
+            <Calibration_PointList/>
+            <Calibration_Plate/>
+            <Calibration_Plate_Fiducials/>
+        </Calibration>
+        <Digital_IO_Settings>
+            <Property value="10" name="IOCount"/>
+            <Digital_IO_1>
+                <Property value="1" name="IO_Function"/>
+                <Property value="Input" name="IO_Type"/>
+            </Digital_IO_1>
+            <Digital_IO_2>
+                <Property value="8" name="IO_Function"/>
+                <Property value="Input" name="IO_Type"/>
+            </Digital_IO_2>
+            <Digital_IO_3>
+                <Property value="1" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
+            </Digital_IO_3>
+            <Digital_IO_4>
+                <Property value="0" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
+            </Digital_IO_4>
+            <Digital_IO_5>
+                <Property value="0" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
+            </Digital_IO_5>
+            <Digital_IO_6>
+                <Property value="0" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
+            </Digital_IO_6>
+            <Digital_IO_7>
+                <Property value="9" name="IO_Function"/>
+                <Property value="Input" name="IO_Type"/>
+            </Digital_IO_7>
+            <Digital_IO_8>
+                <Property value="10" name="IO_Function"/>
+                <Property value="Input" name="IO_Type"/>
+            </Digital_IO_8>
+            <Digital_IO_9>
+                <Property value="0" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
+            </Digital_IO_9>
+            <Digital_IO_10>
+                <Property value="1" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
+            </Digital_IO_10>
+        </Digital_IO_Settings>
+        <DigitalOutputStrings>
+            <Property INFIX="D1" onHigh="1" port="0" mode="1"/>
+            <Property INFIX="D1" onHigh="1" port="196608" mode="1"/>
+        </DigitalOutputStrings>
+        <Detector id="Navigatable.Detector.ColorArea" name="Detector1">
+            <POSE name="ContourPlane"/>
+            <Property value="1" name="Active_Alignment"/>
+            <Property value="0" name="Color_Invert_Channel_0"/>
+            <Property value="0" name="Color_Invert_Channel_1"/>
+            <Property value="0" name="Color_Invert_Channel_2"/>
+            <Property value="0" name="Color_Invert_Channel_3"/>
+            <Property value="56" name="Color_Max_Channel_0"/>
+            <Property value="63" name="Color_Max_Channel_1"/>
+            <Property value="91" name="Color_Max_Channel_2"/>
+            <Property value="0" name="Color_Max_Channel_3"/>
+            <Property value="25" name="Color_Min_Channel_0"/>
+            <Property value="31" name="Color_Min_Channel_1"/>
+            <Property value="50" name="Color_Min_Channel_2"/>
+            <Property value="0" name="Color_Min_Channel_3"/>
+            <Property value="0" name="Color_ObjectSize_Active"/>
+            <Property value="353280" name="Color_ObjectSize_Max"/>
+            <Property value="100" name="Color_ObjectSize_Min"/>
+            <Property value="0" name="Color_Threshold_Invert"/>
+            <Property value="100" name="Color_Threshold_Max"/>
+            <Property value="40" name="Color_Threshold_Min"/>
+            <Property value="14" name="Detector_Channels"/>
+            <Property value="RGB" name="Detector_Color"/>
+            <Property value="0" name="Repeat_Run_Number"/>
+            <Property value="1" name="Shape"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaAngle"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
+            <ROIs>
+                <ROI shape="Circle" purpose="search">
+                    <Property value="346.734" name="centerX"/>
+                    <Property value="245.468" name="centerY"/>
+                    <Property value="0" name="locked_state"/>
+                    <Property value="8.88904" name="radius"/>
+                </ROI>
+            </ROIs>
+        </Detector>
+    </Job>
+</Jobset>
