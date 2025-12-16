@@ -12,7 +12,7 @@ import pymcprotocol
 PLC_IP   = "192.168.3.39"   # PLC IP address
 PLC_PORT = 4003             # PLC Port
 
-YOLO_MODEL_PATH = r"C:\Users\windows11\Desktop\sbkim21\old_files\yolov8test\DeepLearning\runs\detect\my_first_yolov8_run4\weights\best.pt"
+YOLO_MODEL_PATH = r"C:\Users\windows11\Desktop\Group4Project\251214DefectClassification.v2i.yolov8_new\train_new\weights\best.pt"
 
 SAVE_DIR = "captures"
 CSV_FILE = os.path.join(SAVE_DIR, "detections_log.csv")

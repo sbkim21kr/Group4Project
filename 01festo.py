@@ -183,14 +183,14 @@ class FestoSensorWorker:
                 if outcome in ["end_success"]:
                     print("[Festo] Pulsing end device M401 (success group)")
                     self.pulse_bit(self.devices["end"], 0.5, 0.5)
-                    # self.set_plc_bit(self.devices["end_success"])
+                    self.set_plc_bit(self.devices["end_success"])
                 elif outcome in ["end_fail"]:
                     print("[Festo] Pulsing end device M402 (fail group)")
                     self.pulse_bit(self.devices["start_logitech"], 0.5, 0.5)
                     self.set_plc_bit(self.devices["end_fail"])
                 elif outcome in ["tray_empty"]:
                     print("[Festo] Pulsing end device M402 (fail group)")
-                    # self.set_plc_bit(self.devices["end"])
+                    self.set_plc_bit(self.devices["end"])
              
                 print("[Festo] Waiting for next trigger...")
             else:

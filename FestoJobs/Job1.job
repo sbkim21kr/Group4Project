@@ -1,5 +1,5 @@
 <!DOCTYPE Jobset>
-<Jobset capability="2" JobCount="1" Hardware="3" type="2" ActiveJob="1" version="21.0">
+<Jobset type="2" capability="2" JobCount="1" ActiveJob="1" Hardware="3" version="21.0">
     <Settings>
         <Property value="0" name="Reset_Statistics"/>
         <Property value="" name="Password"/>
@@ -40,7 +40,7 @@
             <Property value="1" name="Internal_IO"/>
             <Property value="61" name="Internal_Illumination"/>
             <Property value="2025-11-17T13:31:07" name="JobCreated"/>
-            <Property value="2025-12-12T16:00:50" name="JobModified"/>
+            <Property value="2025-12-13T16:30:35" name="JobModified"/>
             <Property value="0" name="Job_Timing_Delay"/>
             <Property value="Gauss" name="KernelType1"/>
             <Property value="Off" name="KernelType1Value"/>
@@ -164,30 +164,30 @@
             </Digital_IO_10>
         </Digital_IO_Settings>
         <DigitalOutputStrings>
-            <Property INFIX="D1" onHigh="1" port="0" mode="1"/>
-            <Property INFIX="D1" onHigh="1" port="196608" mode="1"/>
+            <Property INFIX="D1" port="0" onHigh="1" mode="1"/>
+            <Property INFIX="D1" port="196608" onHigh="1" mode="1"/>
         </DigitalOutputStrings>
-        <Detector id="Navigatable.Detector.ColorArea" name="Detector1">
+        <Detector name="Detector1" id="Navigatable.Detector.ColorArea">
             <POSE name="ContourPlane"/>
             <Property value="1" name="Active_Alignment"/>
             <Property value="0" name="Color_Invert_Channel_0"/>
             <Property value="0" name="Color_Invert_Channel_1"/>
             <Property value="0" name="Color_Invert_Channel_2"/>
             <Property value="0" name="Color_Invert_Channel_3"/>
-            <Property value="56" name="Color_Max_Channel_0"/>
-            <Property value="63" name="Color_Max_Channel_1"/>
+            <Property value="28" name="Color_Max_Channel_0"/>
+            <Property value="31" name="Color_Max_Channel_1"/>
             <Property value="91" name="Color_Max_Channel_2"/>
             <Property value="0" name="Color_Max_Channel_3"/>
-            <Property value="25" name="Color_Min_Channel_0"/>
-            <Property value="31" name="Color_Min_Channel_1"/>
-            <Property value="50" name="Color_Min_Channel_2"/>
+            <Property value="8" name="Color_Min_Channel_0"/>
+            <Property value="11" name="Color_Min_Channel_1"/>
+            <Property value="43" name="Color_Min_Channel_2"/>
             <Property value="0" name="Color_Min_Channel_3"/>
             <Property value="0" name="Color_ObjectSize_Active"/>
             <Property value="353280" name="Color_ObjectSize_Max"/>
             <Property value="100" name="Color_ObjectSize_Min"/>
             <Property value="0" name="Color_Threshold_Invert"/>
             <Property value="100" name="Color_Threshold_Max"/>
-            <Property value="40" name="Color_Threshold_Min"/>
+            <Property value="90" name="Color_Threshold_Min"/>
             <Property value="14" name="Detector_Channels"/>
             <Property value="RGB" name="Detector_Color"/>
             <Property value="0" name="Repeat_Run_Number"/>
@@ -196,9 +196,9 @@
             <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
             <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
             <ROIs>
-                <ROI shape="Circle" purpose="search">
-                    <Property value="346.734" name="centerX"/>
-                    <Property value="245.468" name="centerY"/>
+                <ROI purpose="search" shape="Circle">
+                    <Property value="330.936" name="centerX"/>
+                    <Property value="230.278" name="centerY"/>
                     <Property value="0" name="locked_state"/>
                     <Property value="8.88904" name="radius"/>
                 </ROI>

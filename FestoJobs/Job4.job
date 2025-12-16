@@ -1,529 +1,529 @@
 <!DOCTYPE Jobset>
-<Jobset version="21.0" JobCount="1" type="2" ActiveJob="1" Hardware="3" capability="2">
+<Jobset type="2" capability="2" JobCount="1" ActiveJob="1" Hardware="3" version="21.0">
     <Settings>
-        <Property name="Reset_Statistics" value="0"/>
-        <Property name="Password" value=""/>
-        <Property name="AdditionalInfo" value=""/>
-        <Property name="View_Enabled" value="1"/>
+        <Property value="0" name="Reset_Statistics"/>
+        <Property value="" name="Password"/>
+        <Property value="" name="AdditionalInfo"/>
+        <Property value="1" name="View_Enabled"/>
     </Settings>
     <Job Number="4">
         <General>
-            <Property name="ArrangementType" value="Rotate180"/>
-            <Property name="Arrangement_enabled" value="0"/>
-            <Property name="Author" value="Author"/>
-            <Property name="Base File" value=""/>
-            <Property name="Beckhoff_IO" value="8Inputs_32Outputs"/>
-            <Property name="Beckhoff_IO_In" value="Disabled"/>
-            <Property name="Cycle_Timeout" value="0"/>
-            <Property name="Description" value="Job"/>
-            <Property name="Domain_name" value=""/>
-            <Property name="ENIP_In" value="Disabled"/>
-            <Property name="Ethernet_In" value="Disabled"/>
-            <Property name="Ethernet_Port_In" value="2006"/>
-            <Property name="Ethernet_Port_Out" value="2005"/>
-            <Property name="External_Illumination" value="0"/>
-            <Property name="External_Pin_Configuration" value="0"/>
-            <Property name="Fail Folder" value=""/>
-            <Property name="Features" value="0"/>
-            <Property name="File Number" value="10"/>
-            <Property name="Focal_Length" value="12"/>
-            <Property name="Gain" value="1.41"/>
-            <Property name="IP Address" value="0.0.0.0"/>
-            <Property name="ImageProcessingTimeOut" value="3000"/>
-            <Property name="ImageTransmision" value="Enabled"/>
-            <Property name="Image_Frame_Size" value="4"/>
-            <Property name="Image_Offset_Col" value="0"/>
-            <Property name="Image_Offset_Row" value="0"/>
-            <Property name="Image_Scaling" value="1"/>
-            <Property name="Images" value="1"/>
-            <Property name="Images Types" value="1"/>
-            <Property name="Internal_IO" value="1"/>
-            <Property name="Internal_Illumination" value="61"/>
-            <Property name="JobCreated" value="2025-11-21T16:20:07"/>
-            <Property name="JobModified" value="2025-12-11T10:48:05"/>
-            <Property name="Job_Timing_Delay" value="0"/>
-            <Property name="KernelType1" value="Gauss"/>
-            <Property name="KernelType1Value" value="Off"/>
-            <Property name="KernelType2" value="Erosion"/>
-            <Property name="KernelType2Value" value="Off"/>
-            <Property name="KernelType3" value="Dilation"/>
-            <Property name="KernelType3Value" value="Off"/>
-            <Property name="KernelType4" value="Mean"/>
-            <Property name="KernelType4Value" value="Off"/>
-            <Property name="KernelType5" value="Median_Separate"/>
-            <Property name="KernelType5Value" value="Off"/>
-            <Property name="Logical_O_Count" value="0"/>
-            <Property name="Max_Num_Cycles" value="1"/>
-            <Property name="Multishot_Active" value="0"/>
-            <Property name="Multishot_Channel" value="height"/>
-            <Property name="Multishot_CurvatureRange" value="0"/>
-            <Property name="Multishot_CurvatureRange_Active" value="1"/>
-            <Property name="Multishot_HeightRange_Auto" value="1"/>
-            <Property name="Multishot_HeightRange_Max" value="0"/>
-            <Property name="Multishot_HeightRange_Min" value="0"/>
-            <Property name="Multishot_LocalMean" value="0"/>
-            <Property name="Multishot_LocalMean_Active" value="1"/>
-            <Property name="Multishot_OffsetX" value="0"/>
-            <Property name="Multishot_Slant" value="30"/>
-            <Property name="Name" value="Job4"/>
-            <Property name="Numeric Results" value="1"/>
-            <Property name="Pass Folder" value=""/>
-            <Property name="Password" value=""/>
-            <Property name="Pixel_Response" value="Linear"/>
-            <Property name="Plate_Sigma" value="2.8"/>
-            <Property name="Preprocessing_enabled" value="1"/>
-            <Property name="ProfinetIO" value="0"/>
-            <Property name="RS422_In" value="Disabled"/>
-            <Property name="RamDisk" value="Off"/>
-            <Property name="RecorderImages" value="Off"/>
-            <Property name="Resolution_Height" value="480"/>
-            <Property name="Resolution_Width" value="736"/>
-            <Property name="ResultDelay" value="0"/>
-            <Property name="ResultPeriod" value="0"/>
-            <Property name="Serial_Baudrate" value="19200 Bd"/>
-            <Property name="Serial_Parity" value="8N1"/>
-            <Property name="Serial_Type" value="None"/>
-            <Property name="Shared_folder_name" value=""/>
-            <Property name="Shutter" value="8.688"/>
-            <Property name="Shutter_Factors" value="1.00"/>
-            <Property name="Shutter_Variation" value="0"/>
-            <Property name="Signalling" value="0"/>
-            <Property name="Storage Mode" value="2"/>
-            <Property name="TOF_CalibrateImageFlag" value=""/>
-            <Property name="TOF_Channel" value="Depth"/>
-            <Property name="TOF_Depth_Range_Max" value="0"/>
-            <Property name="TOF_Depth_Range_Min" value="0"/>
-            <Property name="TOF_ExpectZMode" value=""/>
-            <Property name="TOF_Expected_Depth" value="0"/>
-            <Property name="TOF_Illumination" value="0"/>
-            <Property name="TOF_ROIHeight" value="160"/>
-            <Property name="TOF_ROIHeightOffset" value="160"/>
-            <Property name="TOF_ROIWidth" value="368"/>
-            <Property name="TOF_ROIWidthOffset" value="184"/>
-            <Property name="TOF_Shutter_Speed_Ratio" value="0"/>
-            <Property name="TOF_Subframe" value="0"/>
-            <Property name="TriggerDelay" value="0"/>
-            <Property name="TriggerLockTime" value="0"/>
-            <Property name="TriggerMode" value="Triggered"/>
-            <Property name="Type" value="0"/>
-            <Property name="User Name" value=""/>
-            <Property name="White_balance_active" value="1"/>
-            <Property name="Whitebalance_blue" value="36"/>
-            <Property name="Whitebalance_green" value="62"/>
-            <Property name="Whitebalance_red" value="53"/>
+            <Property value="Mirror" name="ArrangementType"/>
+            <Property value="0" name="Arrangement_enabled"/>
+            <Property value="Author" name="Author"/>
+            <Property value="" name="Base File"/>
+            <Property value="8Inputs_32Outputs" name="Beckhoff_IO"/>
+            <Property value="Disabled" name="Beckhoff_IO_In"/>
+            <Property value="0" name="Cycle_Timeout"/>
+            <Property value="Job" name="Description"/>
+            <Property value="" name="Domain_name"/>
+            <Property value="Disabled" name="ENIP_In"/>
+            <Property value="Disabled" name="Ethernet_In"/>
+            <Property value="2006" name="Ethernet_Port_In"/>
+            <Property value="2005" name="Ethernet_Port_Out"/>
+            <Property value="0" name="External_Illumination"/>
+            <Property value="0" name="External_Pin_Configuration"/>
+            <Property value="" name="Fail Folder"/>
+            <Property value="0" name="Features"/>
+            <Property value="10" name="File Number"/>
+            <Property value="12" name="Focal_Length"/>
+            <Property value="1" name="Gain"/>
+            <Property value="0.0.0.0" name="IP Address"/>
+            <Property value="3000" name="ImageProcessingTimeOut"/>
+            <Property value="Enabled" name="ImageTransmision"/>
+            <Property value="4" name="Image_Frame_Size"/>
+            <Property value="0" name="Image_Offset_Col"/>
+            <Property value="0" name="Image_Offset_Row"/>
+            <Property value="1" name="Image_Scaling"/>
+            <Property value="1" name="Images"/>
+            <Property value="1" name="Images Types"/>
+            <Property value="1" name="Internal_IO"/>
+            <Property value="61" name="Internal_Illumination"/>
+            <Property value="2025-12-13T16:53:16" name="JobCreated"/>
+            <Property value="2025-12-13T17:46:34" name="JobModified"/>
+            <Property value="0" name="Job_Timing_Delay"/>
+            <Property value="Median_Separate" name="KernelType1"/>
+            <Property value="7x7" name="KernelType1Value"/>
+            <Property value="Gauss" name="KernelType2"/>
+            <Property value="7x7" name="KernelType2Value"/>
+            <Property value="Median_Separate" name="KernelType3"/>
+            <Property value="Off" name="KernelType3Value"/>
+            <Property value="Median_Separate" name="KernelType4"/>
+            <Property value="Off" name="KernelType4Value"/>
+            <Property value="Median_Separate" name="KernelType5"/>
+            <Property value="Off" name="KernelType5Value"/>
+            <Property value="0" name="Logical_O_Count"/>
+            <Property value="1" name="Max_Num_Cycles"/>
+            <Property value="0" name="Multishot_Active"/>
+            <Property value="height" name="Multishot_Channel"/>
+            <Property value="0" name="Multishot_CurvatureRange"/>
+            <Property value="1" name="Multishot_CurvatureRange_Active"/>
+            <Property value="1" name="Multishot_HeightRange_Auto"/>
+            <Property value="0" name="Multishot_HeightRange_Max"/>
+            <Property value="0" name="Multishot_HeightRange_Min"/>
+            <Property value="0" name="Multishot_LocalMean"/>
+            <Property value="1" name="Multishot_LocalMean_Active"/>
+            <Property value="0" name="Multishot_OffsetX"/>
+            <Property value="30" name="Multishot_Slant"/>
+            <Property value="Job4" name="Name"/>
+            <Property value="1" name="Numeric Results"/>
+            <Property value="" name="Pass Folder"/>
+            <Property value="" name="Password"/>
+            <Property value="Linear" name="Pixel_Response"/>
+            <Property value="2.8" name="Plate_Sigma"/>
+            <Property value="1" name="Preprocessing_enabled"/>
+            <Property value="0" name="ProfinetIO"/>
+            <Property value="Disabled" name="RS422_In"/>
+            <Property value="Off" name="RamDisk"/>
+            <Property value="Off" name="RecorderImages"/>
+            <Property value="480" name="Resolution_Height"/>
+            <Property value="736" name="Resolution_Width"/>
+            <Property value="0" name="ResultDelay"/>
+            <Property value="0" name="ResultPeriod"/>
+            <Property value="19200 Bd" name="Serial_Baudrate"/>
+            <Property value="8N1" name="Serial_Parity"/>
+            <Property value="None" name="Serial_Type"/>
+            <Property value="" name="Shared_folder_name"/>
+            <Property value="4.611" name="Shutter"/>
+            <Property value="1.00" name="Shutter_Factors"/>
+            <Property value="0" name="Shutter_Variation"/>
+            <Property value="0" name="Signalling"/>
+            <Property value="2" name="Storage Mode"/>
+            <Property value="" name="TOF_CalibrateImageFlag"/>
+            <Property value="Depth" name="TOF_Channel"/>
+            <Property value="0" name="TOF_Depth_Range_Max"/>
+            <Property value="0" name="TOF_Depth_Range_Min"/>
+            <Property value="" name="TOF_ExpectZMode"/>
+            <Property value="0" name="TOF_Expected_Depth"/>
+            <Property value="0" name="TOF_Illumination"/>
+            <Property value="160" name="TOF_ROIHeight"/>
+            <Property value="160" name="TOF_ROIHeightOffset"/>
+            <Property value="368" name="TOF_ROIWidth"/>
+            <Property value="184" name="TOF_ROIWidthOffset"/>
+            <Property value="0" name="TOF_Shutter_Speed_Ratio"/>
+            <Property value="0" name="TOF_Subframe"/>
+            <Property value="0" name="TriggerDelay"/>
+            <Property value="0" name="TriggerLockTime"/>
+            <Property value="Triggered" name="TriggerMode"/>
+            <Property value="0" name="Type"/>
+            <Property value="" name="User Name"/>
+            <Property value="1" name="White_balance_active"/>
+            <Property value="21.62" name="Whitebalance_blue"/>
+            <Property value="32.42" name="Whitebalance_green"/>
+            <Property value="127.51" name="Whitebalance_red"/>
         </General>
         <Calibration>
-            <Property name="Calibration_Valid" value="0"/>
-            <Property name="Calibration_Method" value="None"/>
+            <Property value="0" name="Calibration_Valid"/>
+            <Property value="None" name="Calibration_Method"/>
             <Calibration_Scaling/>
             <Calibration_PointList/>
             <Calibration_Plate/>
             <Calibration_Plate_Fiducials/>
         </Calibration>
         <Digital_IO_Settings>
-            <Property name="IOCount" value="10"/>
+            <Property value="10" name="IOCount"/>
             <Digital_IO_1>
-                <Property name="IO_Function" value="1"/>
-                <Property name="IO_Type" value="Input"/>
+                <Property value="1" name="IO_Function"/>
+                <Property value="Input" name="IO_Type"/>
             </Digital_IO_1>
             <Digital_IO_2>
-                <Property name="IO_Function" value="8"/>
-                <Property name="IO_Type" value="Input"/>
+                <Property value="8" name="IO_Function"/>
+                <Property value="Input" name="IO_Type"/>
             </Digital_IO_2>
             <Digital_IO_3>
-                <Property name="IO_Function" value="0"/>
-                <Property name="IO_Type" value="Output"/>
+                <Property value="0" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
             </Digital_IO_3>
             <Digital_IO_4>
-                <Property name="IO_Function" value="3"/>
-                <Property name="IO_Type" value="Output"/>
+                <Property value="3" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
             </Digital_IO_4>
             <Digital_IO_5>
-                <Property name="IO_Function" value="0"/>
-                <Property name="IO_Type" value="Output"/>
+                <Property value="0" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
             </Digital_IO_5>
             <Digital_IO_6>
-                <Property name="IO_Function" value="0"/>
-                <Property name="IO_Type" value="Output"/>
+                <Property value="0" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
             </Digital_IO_6>
             <Digital_IO_7>
-                <Property name="IO_Function" value="9"/>
-                <Property name="IO_Type" value="Input"/>
+                <Property value="9" name="IO_Function"/>
+                <Property value="Input" name="IO_Type"/>
             </Digital_IO_7>
             <Digital_IO_8>
-                <Property name="IO_Function" value="10"/>
-                <Property name="IO_Type" value="Input"/>
+                <Property value="10" name="IO_Function"/>
+                <Property value="Input" name="IO_Type"/>
             </Digital_IO_8>
             <Digital_IO_9>
-                <Property name="IO_Function" value="0"/>
-                <Property name="IO_Type" value="Output"/>
+                <Property value="0" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
             </Digital_IO_9>
             <Digital_IO_10>
-                <Property name="IO_Function" value="1"/>
-                <Property name="IO_Type" value="Output"/>
+                <Property value="1" name="IO_Function"/>
+                <Property value="Output" name="IO_Type"/>
             </Digital_IO_10>
         </Digital_IO_Settings>
         <DigitalOutputStrings>
-            <Property INFIX="D1&amp;D2&amp;D3&amp;D4&amp;D5&amp;D6&amp;D7&amp;D8" mode="1" onHigh="1" port="1"/>
-            <Property INFIX="D1&amp;D2&amp;D3&amp;D4&amp;D5&amp;D6&amp;D7&amp;D8" mode="1" onHigh="1" port="196608"/>
+            <Property INFIX="D1|D2|D3|D4|D5|D6|D7|D8" port="1" onHigh="0" mode="1"/>
+            <Property INFIX="D1|D2|D3|D4|D5|D6|D7|D8" port="196608" onHigh="1" mode="1"/>
         </DigitalOutputStrings>
         <Detector name="Detector1" id="Navigatable.Detector.Contrast">
             <POSE name="ContourPlane"/>
-            <Property name="Active_Alignment" value="1"/>
-            <Property name="Channel_single" value="RGB_Binarization"/>
-            <Property name="Repeat_Run_Number" value="0"/>
-            <Property name="Shape" value="1"/>
-            <Property name="ThresholdMax" value="100"/>
-            <Property name="ThresholdMin" value="20"/>
-            <Property name="Threshold_Invert" value="1"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaAngle" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaCol" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaRow" value="0"/>
+            <Property value="1" name="Active_Alignment"/>
+            <Property value="RGB_Binarization" name="Channel_single"/>
+            <Property value="0" name="Repeat_Run_Number"/>
+            <Property value="1" name="Shape"/>
+            <Property value="100" name="ThresholdMax"/>
+            <Property value="20" name="ThresholdMin"/>
+            <Property value="0" name="Threshold_Invert"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaAngle"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
             <MonochromeImage>
-                <Property name="Bin_Invert_Channel_0" value="0"/>
-                <Property name="Bin_Invert_Channel_1" value="0"/>
-                <Property name="Bin_Invert_Channel_2" value="0"/>
-                <Property name="Bin_Invert_Channel_3" value="0"/>
-                <Property name="Bin_Max_Channel_0" value="100"/>
-                <Property name="Bin_Max_Channel_1" value="100"/>
-                <Property name="Bin_Max_Channel_2" value="100"/>
-                <Property name="Bin_Max_Channel_3" value="0"/>
-                <Property name="Bin_Min_Channel_0" value="0"/>
-                <Property name="Bin_Min_Channel_1" value="0"/>
-                <Property name="Bin_Min_Channel_2" value="0"/>
-                <Property name="Bin_Min_Channel_3" value="0"/>
-                <Property name="Clr_Dist_Invert_Image" value="1"/>
-                <Property name="Clr_Dist_Max" value="255"/>
-                <Property name="Clr_Dist_Weights_Channel_0" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_1" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_2" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_3" value="0"/>
-                <Property name="Usr_Weights_Channel_0" value="1"/>
-                <Property name="Usr_Weights_Channel_1" value="1"/>
-                <Property name="Usr_Weights_Channel_2" value="1"/>
-                <Property name="Usr_Weights_Channel_3" value="0"/>
+                <Property value="0" name="Bin_Invert_Channel_0"/>
+                <Property value="0" name="Bin_Invert_Channel_1"/>
+                <Property value="0" name="Bin_Invert_Channel_2"/>
+                <Property value="0" name="Bin_Invert_Channel_3"/>
+                <Property value="60" name="Bin_Max_Channel_0"/>
+                <Property value="60" name="Bin_Max_Channel_1"/>
+                <Property value="60" name="Bin_Max_Channel_2"/>
+                <Property value="0" name="Bin_Max_Channel_3"/>
+                <Property value="0" name="Bin_Min_Channel_0"/>
+                <Property value="0" name="Bin_Min_Channel_1"/>
+                <Property value="0" name="Bin_Min_Channel_2"/>
+                <Property value="0" name="Bin_Min_Channel_3"/>
+                <Property value="1" name="Clr_Dist_Invert_Image"/>
+                <Property value="255" name="Clr_Dist_Max"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_0"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_1"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_2"/>
+                <Property value="0" name="Clr_Dist_Weights_Channel_3"/>
+                <Property value="1" name="Usr_Weights_Channel_0"/>
+                <Property value="1" name="Usr_Weights_Channel_1"/>
+                <Property value="1" name="Usr_Weights_Channel_2"/>
+                <Property value="0" name="Usr_Weights_Channel_3"/>
             </MonochromeImage>
             <ROIs>
                 <ROI purpose="search" shape="Circle">
-                    <Property name="centerX" value="392.304"/>
-                    <Property name="centerY" value="294.076"/>
-                    <Property name="locked_state" value="0"/>
-                    <Property name="radius" value="80"/>
+                    <Property value="303.595" name="centerX"/>
+                    <Property value="292.861" name="centerY"/>
+                    <Property value="0" name="locked_state"/>
+                    <Property value="80" name="radius"/>
                 </ROI>
             </ROIs>
         </Detector>
         <Detector name="Detector2" id="Navigatable.Detector.Contrast">
             <POSE name="ContourPlane"/>
-            <Property name="Active_Alignment" value="1"/>
-            <Property name="Channel_single" value="RGB_Binarization"/>
-            <Property name="Repeat_Run_Number" value="0"/>
-            <Property name="Shape" value="1"/>
-            <Property name="ThresholdMax" value="100"/>
-            <Property name="ThresholdMin" value="20"/>
-            <Property name="Threshold_Invert" value="1"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaAngle" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaCol" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaRow" value="0"/>
+            <Property value="1" name="Active_Alignment"/>
+            <Property value="RGB_Binarization" name="Channel_single"/>
+            <Property value="0" name="Repeat_Run_Number"/>
+            <Property value="1" name="Shape"/>
+            <Property value="100" name="ThresholdMax"/>
+            <Property value="20" name="ThresholdMin"/>
+            <Property value="0" name="Threshold_Invert"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaAngle"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
             <MonochromeImage>
-                <Property name="Bin_Invert_Channel_0" value="0"/>
-                <Property name="Bin_Invert_Channel_1" value="0"/>
-                <Property name="Bin_Invert_Channel_2" value="0"/>
-                <Property name="Bin_Invert_Channel_3" value="0"/>
-                <Property name="Bin_Max_Channel_0" value="100"/>
-                <Property name="Bin_Max_Channel_1" value="100"/>
-                <Property name="Bin_Max_Channel_2" value="100"/>
-                <Property name="Bin_Max_Channel_3" value="0"/>
-                <Property name="Bin_Min_Channel_0" value="0"/>
-                <Property name="Bin_Min_Channel_1" value="0"/>
-                <Property name="Bin_Min_Channel_2" value="0"/>
-                <Property name="Bin_Min_Channel_3" value="0"/>
-                <Property name="Clr_Dist_Invert_Image" value="1"/>
-                <Property name="Clr_Dist_Max" value="255"/>
-                <Property name="Clr_Dist_Weights_Channel_0" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_1" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_2" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_3" value="0"/>
-                <Property name="Usr_Weights_Channel_0" value="1"/>
-                <Property name="Usr_Weights_Channel_1" value="1"/>
-                <Property name="Usr_Weights_Channel_2" value="1"/>
-                <Property name="Usr_Weights_Channel_3" value="0"/>
+                <Property value="0" name="Bin_Invert_Channel_0"/>
+                <Property value="0" name="Bin_Invert_Channel_1"/>
+                <Property value="0" name="Bin_Invert_Channel_2"/>
+                <Property value="0" name="Bin_Invert_Channel_3"/>
+                <Property value="100" name="Bin_Max_Channel_0"/>
+                <Property value="100" name="Bin_Max_Channel_1"/>
+                <Property value="100" name="Bin_Max_Channel_2"/>
+                <Property value="0" name="Bin_Max_Channel_3"/>
+                <Property value="0" name="Bin_Min_Channel_0"/>
+                <Property value="0" name="Bin_Min_Channel_1"/>
+                <Property value="0" name="Bin_Min_Channel_2"/>
+                <Property value="0" name="Bin_Min_Channel_3"/>
+                <Property value="1" name="Clr_Dist_Invert_Image"/>
+                <Property value="255" name="Clr_Dist_Max"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_0"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_1"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_2"/>
+                <Property value="0" name="Clr_Dist_Weights_Channel_3"/>
+                <Property value="1" name="Usr_Weights_Channel_0"/>
+                <Property value="1" name="Usr_Weights_Channel_1"/>
+                <Property value="1" name="Usr_Weights_Channel_2"/>
+                <Property value="0" name="Usr_Weights_Channel_3"/>
             </MonochromeImage>
             <ROIs>
                 <ROI purpose="search" shape="Circle">
-                    <Property name="centerX" value="315.139"/>
-                    <Property name="centerY" value="292.861"/>
-                    <Property name="locked_state" value="0"/>
-                    <Property name="radius" value="80"/>
+                    <Property value="379.544" name="centerX"/>
+                    <Property value="292.861" name="centerY"/>
+                    <Property value="0" name="locked_state"/>
+                    <Property value="80" name="radius"/>
                 </ROI>
             </ROIs>
         </Detector>
         <Detector name="Detector3" id="Navigatable.Detector.Contrast">
             <POSE name="ContourPlane"/>
-            <Property name="Active_Alignment" value="1"/>
-            <Property name="Channel_single" value="RGB_Binarization"/>
-            <Property name="Repeat_Run_Number" value="0"/>
-            <Property name="Shape" value="1"/>
-            <Property name="ThresholdMax" value="100"/>
-            <Property name="ThresholdMin" value="20"/>
-            <Property name="Threshold_Invert" value="1"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaAngle" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaCol" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaRow" value="0"/>
+            <Property value="1" name="Active_Alignment"/>
+            <Property value="RGB_Binarization" name="Channel_single"/>
+            <Property value="0" name="Repeat_Run_Number"/>
+            <Property value="1" name="Shape"/>
+            <Property value="100" name="ThresholdMax"/>
+            <Property value="20" name="ThresholdMin"/>
+            <Property value="0" name="Threshold_Invert"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaAngle"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
             <MonochromeImage>
-                <Property name="Bin_Invert_Channel_0" value="0"/>
-                <Property name="Bin_Invert_Channel_1" value="0"/>
-                <Property name="Bin_Invert_Channel_2" value="0"/>
-                <Property name="Bin_Invert_Channel_3" value="0"/>
-                <Property name="Bin_Max_Channel_0" value="100"/>
-                <Property name="Bin_Max_Channel_1" value="100"/>
-                <Property name="Bin_Max_Channel_2" value="100"/>
-                <Property name="Bin_Max_Channel_3" value="0"/>
-                <Property name="Bin_Min_Channel_0" value="0"/>
-                <Property name="Bin_Min_Channel_1" value="0"/>
-                <Property name="Bin_Min_Channel_2" value="0"/>
-                <Property name="Bin_Min_Channel_3" value="0"/>
-                <Property name="Clr_Dist_Invert_Image" value="1"/>
-                <Property name="Clr_Dist_Max" value="255"/>
-                <Property name="Clr_Dist_Weights_Channel_0" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_1" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_2" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_3" value="0"/>
-                <Property name="Usr_Weights_Channel_0" value="1"/>
-                <Property name="Usr_Weights_Channel_1" value="1"/>
-                <Property name="Usr_Weights_Channel_2" value="1"/>
-                <Property name="Usr_Weights_Channel_3" value="0"/>
+                <Property value="0" name="Bin_Invert_Channel_0"/>
+                <Property value="0" name="Bin_Invert_Channel_1"/>
+                <Property value="0" name="Bin_Invert_Channel_2"/>
+                <Property value="0" name="Bin_Invert_Channel_3"/>
+                <Property value="100" name="Bin_Max_Channel_0"/>
+                <Property value="100" name="Bin_Max_Channel_1"/>
+                <Property value="100" name="Bin_Max_Channel_2"/>
+                <Property value="0" name="Bin_Max_Channel_3"/>
+                <Property value="0" name="Bin_Min_Channel_0"/>
+                <Property value="0" name="Bin_Min_Channel_1"/>
+                <Property value="0" name="Bin_Min_Channel_2"/>
+                <Property value="0" name="Bin_Min_Channel_3"/>
+                <Property value="1" name="Clr_Dist_Invert_Image"/>
+                <Property value="255" name="Clr_Dist_Max"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_0"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_1"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_2"/>
+                <Property value="0" name="Clr_Dist_Weights_Channel_3"/>
+                <Property value="1" name="Usr_Weights_Channel_0"/>
+                <Property value="1" name="Usr_Weights_Channel_1"/>
+                <Property value="1" name="Usr_Weights_Channel_2"/>
+                <Property value="0" name="Usr_Weights_Channel_3"/>
             </MonochromeImage>
             <ROIs>
                 <ROI purpose="search" shape="Circle">
-                    <Property name="centerX" value="355.241"/>
-                    <Property name="centerY" value="310.481"/>
-                    <Property name="locked_state" value="0"/>
-                    <Property name="radius" value="80"/>
+                    <Property value="340.051" name="centerX"/>
+                    <Property value="281.924" name="centerY"/>
+                    <Property value="0" name="locked_state"/>
+                    <Property value="80" name="radius"/>
                 </ROI>
             </ROIs>
         </Detector>
         <Detector name="Detector4" id="Navigatable.Detector.Contrast">
             <POSE name="ContourPlane"/>
-            <Property name="Active_Alignment" value="1"/>
-            <Property name="Channel_single" value="RGB_Binarization"/>
-            <Property name="Repeat_Run_Number" value="0"/>
-            <Property name="Shape" value="1"/>
-            <Property name="ThresholdMax" value="100"/>
-            <Property name="ThresholdMin" value="20"/>
-            <Property name="Threshold_Invert" value="1"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaAngle" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaCol" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaRow" value="0"/>
+            <Property value="1" name="Active_Alignment"/>
+            <Property value="RGB_Binarization" name="Channel_single"/>
+            <Property value="0" name="Repeat_Run_Number"/>
+            <Property value="1" name="Shape"/>
+            <Property value="100" name="ThresholdMax"/>
+            <Property value="20" name="ThresholdMin"/>
+            <Property value="0" name="Threshold_Invert"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaAngle"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
             <MonochromeImage>
-                <Property name="Bin_Invert_Channel_0" value="0"/>
-                <Property name="Bin_Invert_Channel_1" value="0"/>
-                <Property name="Bin_Invert_Channel_2" value="0"/>
-                <Property name="Bin_Invert_Channel_3" value="0"/>
-                <Property name="Bin_Max_Channel_0" value="100"/>
-                <Property name="Bin_Max_Channel_1" value="100"/>
-                <Property name="Bin_Max_Channel_2" value="100"/>
-                <Property name="Bin_Max_Channel_3" value="0"/>
-                <Property name="Bin_Min_Channel_0" value="0"/>
-                <Property name="Bin_Min_Channel_1" value="0"/>
-                <Property name="Bin_Min_Channel_2" value="0"/>
-                <Property name="Bin_Min_Channel_3" value="0"/>
-                <Property name="Clr_Dist_Invert_Image" value="1"/>
-                <Property name="Clr_Dist_Max" value="255"/>
-                <Property name="Clr_Dist_Weights_Channel_0" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_1" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_2" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_3" value="0"/>
-                <Property name="Usr_Weights_Channel_0" value="1"/>
-                <Property name="Usr_Weights_Channel_1" value="1"/>
-                <Property name="Usr_Weights_Channel_2" value="1"/>
-                <Property name="Usr_Weights_Channel_3" value="0"/>
+                <Property value="0" name="Bin_Invert_Channel_0"/>
+                <Property value="0" name="Bin_Invert_Channel_1"/>
+                <Property value="0" name="Bin_Invert_Channel_2"/>
+                <Property value="0" name="Bin_Invert_Channel_3"/>
+                <Property value="100" name="Bin_Max_Channel_0"/>
+                <Property value="100" name="Bin_Max_Channel_1"/>
+                <Property value="100" name="Bin_Max_Channel_2"/>
+                <Property value="0" name="Bin_Max_Channel_3"/>
+                <Property value="0" name="Bin_Min_Channel_0"/>
+                <Property value="0" name="Bin_Min_Channel_1"/>
+                <Property value="0" name="Bin_Min_Channel_2"/>
+                <Property value="0" name="Bin_Min_Channel_3"/>
+                <Property value="1" name="Clr_Dist_Invert_Image"/>
+                <Property value="255" name="Clr_Dist_Max"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_0"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_1"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_2"/>
+                <Property value="0" name="Clr_Dist_Weights_Channel_3"/>
+                <Property value="1" name="Usr_Weights_Channel_0"/>
+                <Property value="1" name="Usr_Weights_Channel_1"/>
+                <Property value="1" name="Usr_Weights_Channel_2"/>
+                <Property value="0" name="Usr_Weights_Channel_3"/>
             </MonochromeImage>
             <ROIs>
                 <ROI purpose="search" shape="Circle">
-                    <Property name="centerX" value="351.595"/>
-                    <Property name="centerY" value="279.494"/>
-                    <Property name="locked_state" value="0"/>
-                    <Property name="radius" value="80"/>
+                    <Property value="343.089" name="centerX"/>
+                    <Property value="307.443" name="centerY"/>
+                    <Property value="0" name="locked_state"/>
+                    <Property value="80" name="radius"/>
                 </ROI>
             </ROIs>
         </Detector>
         <Detector name="Detector5" id="Navigatable.Detector.Contrast">
             <POSE name="ContourPlane"/>
-            <Property name="Active_Alignment" value="1"/>
-            <Property name="Channel_single" value="RGB_Binarization"/>
-            <Property name="Repeat_Run_Number" value="0"/>
-            <Property name="Shape" value="1"/>
-            <Property name="ThresholdMax" value="100"/>
-            <Property name="ThresholdMin" value="20"/>
-            <Property name="Threshold_Invert" value="1"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaAngle" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaCol" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaRow" value="0"/>
+            <Property value="1" name="Active_Alignment"/>
+            <Property value="RGB_Binarization" name="Channel_single"/>
+            <Property value="0" name="Repeat_Run_Number"/>
+            <Property value="1" name="Shape"/>
+            <Property value="100" name="ThresholdMax"/>
+            <Property value="20" name="ThresholdMin"/>
+            <Property value="0" name="Threshold_Invert"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaAngle"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
             <MonochromeImage>
-                <Property name="Bin_Invert_Channel_0" value="0"/>
-                <Property name="Bin_Invert_Channel_1" value="0"/>
-                <Property name="Bin_Invert_Channel_2" value="0"/>
-                <Property name="Bin_Invert_Channel_3" value="0"/>
-                <Property name="Bin_Max_Channel_0" value="100"/>
-                <Property name="Bin_Max_Channel_1" value="100"/>
-                <Property name="Bin_Max_Channel_2" value="100"/>
-                <Property name="Bin_Max_Channel_3" value="0"/>
-                <Property name="Bin_Min_Channel_0" value="0"/>
-                <Property name="Bin_Min_Channel_1" value="0"/>
-                <Property name="Bin_Min_Channel_2" value="0"/>
-                <Property name="Bin_Min_Channel_3" value="0"/>
-                <Property name="Clr_Dist_Invert_Image" value="1"/>
-                <Property name="Clr_Dist_Max" value="255"/>
-                <Property name="Clr_Dist_Weights_Channel_0" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_1" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_2" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_3" value="0"/>
-                <Property name="Usr_Weights_Channel_0" value="1"/>
-                <Property name="Usr_Weights_Channel_1" value="1"/>
-                <Property name="Usr_Weights_Channel_2" value="1"/>
-                <Property name="Usr_Weights_Channel_3" value="0"/>
+                <Property value="0" name="Bin_Invert_Channel_0"/>
+                <Property value="0" name="Bin_Invert_Channel_1"/>
+                <Property value="0" name="Bin_Invert_Channel_2"/>
+                <Property value="0" name="Bin_Invert_Channel_3"/>
+                <Property value="100" name="Bin_Max_Channel_0"/>
+                <Property value="100" name="Bin_Max_Channel_1"/>
+                <Property value="100" name="Bin_Max_Channel_2"/>
+                <Property value="0" name="Bin_Max_Channel_3"/>
+                <Property value="0" name="Bin_Min_Channel_0"/>
+                <Property value="0" name="Bin_Min_Channel_1"/>
+                <Property value="0" name="Bin_Min_Channel_2"/>
+                <Property value="0" name="Bin_Min_Channel_3"/>
+                <Property value="1" name="Clr_Dist_Invert_Image"/>
+                <Property value="255" name="Clr_Dist_Max"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_0"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_1"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_2"/>
+                <Property value="0" name="Clr_Dist_Weights_Channel_3"/>
+                <Property value="1" name="Usr_Weights_Channel_0"/>
+                <Property value="1" name="Usr_Weights_Channel_1"/>
+                <Property value="1" name="Usr_Weights_Channel_2"/>
+                <Property value="0" name="Usr_Weights_Channel_3"/>
             </MonochromeImage>
             <ROIs>
                 <ROI purpose="search" shape="Circle">
-                    <Property name="centerX" value="333.367"/>
-                    <Property name="centerY" value="281.924"/>
-                    <Property name="locked_state" value="0"/>
-                    <Property name="radius" value="80"/>
+                    <Property value="321.823" name="centerX"/>
+                    <Property value="282.532" name="centerY"/>
+                    <Property value="0" name="locked_state"/>
+                    <Property value="80" name="radius"/>
                 </ROI>
             </ROIs>
         </Detector>
         <Detector name="Detector6" id="Navigatable.Detector.Contrast">
             <POSE name="ContourPlane"/>
-            <Property name="Active_Alignment" value="1"/>
-            <Property name="Channel_single" value="RGB_Binarization"/>
-            <Property name="Repeat_Run_Number" value="0"/>
-            <Property name="Shape" value="1"/>
-            <Property name="ThresholdMax" value="100"/>
-            <Property name="ThresholdMin" value="20"/>
-            <Property name="Threshold_Invert" value="1"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaAngle" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaCol" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaRow" value="0"/>
+            <Property value="1" name="Active_Alignment"/>
+            <Property value="RGB_Binarization" name="Channel_single"/>
+            <Property value="0" name="Repeat_Run_Number"/>
+            <Property value="1" name="Shape"/>
+            <Property value="100" name="ThresholdMax"/>
+            <Property value="20" name="ThresholdMin"/>
+            <Property value="0" name="Threshold_Invert"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaAngle"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
             <MonochromeImage>
-                <Property name="Bin_Invert_Channel_0" value="0"/>
-                <Property name="Bin_Invert_Channel_1" value="0"/>
-                <Property name="Bin_Invert_Channel_2" value="0"/>
-                <Property name="Bin_Invert_Channel_3" value="0"/>
-                <Property name="Bin_Max_Channel_0" value="100"/>
-                <Property name="Bin_Max_Channel_1" value="100"/>
-                <Property name="Bin_Max_Channel_2" value="100"/>
-                <Property name="Bin_Max_Channel_3" value="0"/>
-                <Property name="Bin_Min_Channel_0" value="0"/>
-                <Property name="Bin_Min_Channel_1" value="0"/>
-                <Property name="Bin_Min_Channel_2" value="0"/>
-                <Property name="Bin_Min_Channel_3" value="0"/>
-                <Property name="Clr_Dist_Invert_Image" value="1"/>
-                <Property name="Clr_Dist_Max" value="255"/>
-                <Property name="Clr_Dist_Weights_Channel_0" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_1" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_2" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_3" value="0"/>
-                <Property name="Usr_Weights_Channel_0" value="1"/>
-                <Property name="Usr_Weights_Channel_1" value="1"/>
-                <Property name="Usr_Weights_Channel_2" value="1"/>
-                <Property name="Usr_Weights_Channel_3" value="0"/>
+                <Property value="0" name="Bin_Invert_Channel_0"/>
+                <Property value="0" name="Bin_Invert_Channel_1"/>
+                <Property value="0" name="Bin_Invert_Channel_2"/>
+                <Property value="0" name="Bin_Invert_Channel_3"/>
+                <Property value="100" name="Bin_Max_Channel_0"/>
+                <Property value="100" name="Bin_Max_Channel_1"/>
+                <Property value="100" name="Bin_Max_Channel_2"/>
+                <Property value="0" name="Bin_Max_Channel_3"/>
+                <Property value="0" name="Bin_Min_Channel_0"/>
+                <Property value="0" name="Bin_Min_Channel_1"/>
+                <Property value="0" name="Bin_Min_Channel_2"/>
+                <Property value="0" name="Bin_Min_Channel_3"/>
+                <Property value="1" name="Clr_Dist_Invert_Image"/>
+                <Property value="255" name="Clr_Dist_Max"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_0"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_1"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_2"/>
+                <Property value="0" name="Clr_Dist_Weights_Channel_3"/>
+                <Property value="1" name="Usr_Weights_Channel_0"/>
+                <Property value="1" name="Usr_Weights_Channel_1"/>
+                <Property value="1" name="Usr_Weights_Channel_2"/>
+                <Property value="0" name="Usr_Weights_Channel_3"/>
             </MonochromeImage>
             <ROIs>
                 <ROI purpose="search" shape="Circle">
-                    <Property name="centerX" value="372.861"/>
-                    <Property name="centerY" value="283.139"/>
-                    <Property name="locked_state" value="0"/>
-                    <Property name="radius" value="80"/>
+                    <Property value="356.456" name="centerX"/>
+                    <Property value="284.962" name="centerY"/>
+                    <Property value="0" name="locked_state"/>
+                    <Property value="80" name="radius"/>
                 </ROI>
             </ROIs>
         </Detector>
         <Detector name="Detector7" id="Navigatable.Detector.Contrast">
             <POSE name="ContourPlane"/>
-            <Property name="Active_Alignment" value="1"/>
-            <Property name="Channel_single" value="RGB_Binarization"/>
-            <Property name="Repeat_Run_Number" value="0"/>
-            <Property name="Shape" value="1"/>
-            <Property name="ThresholdMax" value="100"/>
-            <Property name="ThresholdMin" value="20"/>
-            <Property name="Threshold_Invert" value="1"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaAngle" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaCol" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaRow" value="0"/>
+            <Property value="1" name="Active_Alignment"/>
+            <Property value="RGB_Binarization" name="Channel_single"/>
+            <Property value="0" name="Repeat_Run_Number"/>
+            <Property value="1" name="Shape"/>
+            <Property value="100" name="ThresholdMax"/>
+            <Property value="20" name="ThresholdMin"/>
+            <Property value="0" name="Threshold_Invert"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaAngle"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
             <MonochromeImage>
-                <Property name="Bin_Invert_Channel_0" value="0"/>
-                <Property name="Bin_Invert_Channel_1" value="0"/>
-                <Property name="Bin_Invert_Channel_2" value="0"/>
-                <Property name="Bin_Invert_Channel_3" value="0"/>
-                <Property name="Bin_Max_Channel_0" value="100"/>
-                <Property name="Bin_Max_Channel_1" value="100"/>
-                <Property name="Bin_Max_Channel_2" value="100"/>
-                <Property name="Bin_Max_Channel_3" value="0"/>
-                <Property name="Bin_Min_Channel_0" value="0"/>
-                <Property name="Bin_Min_Channel_1" value="0"/>
-                <Property name="Bin_Min_Channel_2" value="0"/>
-                <Property name="Bin_Min_Channel_3" value="0"/>
-                <Property name="Clr_Dist_Invert_Image" value="1"/>
-                <Property name="Clr_Dist_Max" value="255"/>
-                <Property name="Clr_Dist_Weights_Channel_0" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_1" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_2" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_3" value="0"/>
-                <Property name="Usr_Weights_Channel_0" value="1"/>
-                <Property name="Usr_Weights_Channel_1" value="1"/>
-                <Property name="Usr_Weights_Channel_2" value="1"/>
-                <Property name="Usr_Weights_Channel_3" value="0"/>
+                <Property value="0" name="Bin_Invert_Channel_0"/>
+                <Property value="0" name="Bin_Invert_Channel_1"/>
+                <Property value="0" name="Bin_Invert_Channel_2"/>
+                <Property value="0" name="Bin_Invert_Channel_3"/>
+                <Property value="100" name="Bin_Max_Channel_0"/>
+                <Property value="100" name="Bin_Max_Channel_1"/>
+                <Property value="100" name="Bin_Max_Channel_2"/>
+                <Property value="0" name="Bin_Max_Channel_3"/>
+                <Property value="0" name="Bin_Min_Channel_0"/>
+                <Property value="0" name="Bin_Min_Channel_1"/>
+                <Property value="0" name="Bin_Min_Channel_2"/>
+                <Property value="0" name="Bin_Min_Channel_3"/>
+                <Property value="1" name="Clr_Dist_Invert_Image"/>
+                <Property value="255" name="Clr_Dist_Max"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_0"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_1"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_2"/>
+                <Property value="0" name="Clr_Dist_Weights_Channel_3"/>
+                <Property value="1" name="Usr_Weights_Channel_0"/>
+                <Property value="1" name="Usr_Weights_Channel_1"/>
+                <Property value="1" name="Usr_Weights_Channel_2"/>
+                <Property value="0" name="Usr_Weights_Channel_3"/>
             </MonochromeImage>
             <ROIs>
                 <ROI purpose="search" shape="Circle">
-                    <Property name="centerX" value="332.152"/>
-                    <Property name="centerY" value="301.975"/>
-                    <Property name="locked_state" value="0"/>
-                    <Property name="radius" value="80"/>
+                    <Property value="321.823" name="centerX"/>
+                    <Property value="301.367" name="centerY"/>
+                    <Property value="0" name="locked_state"/>
+                    <Property value="80" name="radius"/>
                 </ROI>
             </ROIs>
         </Detector>
         <Detector name="Detector8" id="Navigatable.Detector.Contrast">
             <POSE name="ContourPlane"/>
-            <Property name="Active_Alignment" value="1"/>
-            <Property name="Channel_single" value="RGB_Binarization"/>
-            <Property name="Repeat_Run_Number" value="0"/>
-            <Property name="Shape" value="1"/>
-            <Property name="ThresholdMax" value="100"/>
-            <Property name="ThresholdMin" value="20"/>
-            <Property name="Threshold_Invert" value="1"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaAngle" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaCol" value="0"/>
-            <Property name="Trafo_Alignment_Detector_Teach_deltaRow" value="0"/>
+            <Property value="1" name="Active_Alignment"/>
+            <Property value="RGB_Binarization" name="Channel_single"/>
+            <Property value="0" name="Repeat_Run_Number"/>
+            <Property value="1" name="Shape"/>
+            <Property value="100" name="ThresholdMax"/>
+            <Property value="20" name="ThresholdMin"/>
+            <Property value="0" name="Threshold_Invert"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaAngle"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaCol"/>
+            <Property value="0" name="Trafo_Alignment_Detector_Teach_deltaRow"/>
             <MonochromeImage>
-                <Property name="Bin_Invert_Channel_0" value="0"/>
-                <Property name="Bin_Invert_Channel_1" value="0"/>
-                <Property name="Bin_Invert_Channel_2" value="0"/>
-                <Property name="Bin_Invert_Channel_3" value="0"/>
-                <Property name="Bin_Max_Channel_0" value="100"/>
-                <Property name="Bin_Max_Channel_1" value="100"/>
-                <Property name="Bin_Max_Channel_2" value="100"/>
-                <Property name="Bin_Max_Channel_3" value="0"/>
-                <Property name="Bin_Min_Channel_0" value="0"/>
-                <Property name="Bin_Min_Channel_1" value="0"/>
-                <Property name="Bin_Min_Channel_2" value="0"/>
-                <Property name="Bin_Min_Channel_3" value="0"/>
-                <Property name="Clr_Dist_Invert_Image" value="1"/>
-                <Property name="Clr_Dist_Max" value="255"/>
-                <Property name="Clr_Dist_Weights_Channel_0" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_1" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_2" value="100"/>
-                <Property name="Clr_Dist_Weights_Channel_3" value="0"/>
-                <Property name="Usr_Weights_Channel_0" value="1"/>
-                <Property name="Usr_Weights_Channel_1" value="1"/>
-                <Property name="Usr_Weights_Channel_2" value="1"/>
-                <Property name="Usr_Weights_Channel_3" value="0"/>
+                <Property value="0" name="Bin_Invert_Channel_0"/>
+                <Property value="0" name="Bin_Invert_Channel_1"/>
+                <Property value="0" name="Bin_Invert_Channel_2"/>
+                <Property value="0" name="Bin_Invert_Channel_3"/>
+                <Property value="100" name="Bin_Max_Channel_0"/>
+                <Property value="100" name="Bin_Max_Channel_1"/>
+                <Property value="100" name="Bin_Max_Channel_2"/>
+                <Property value="0" name="Bin_Max_Channel_3"/>
+                <Property value="0" name="Bin_Min_Channel_0"/>
+                <Property value="0" name="Bin_Min_Channel_1"/>
+                <Property value="0" name="Bin_Min_Channel_2"/>
+                <Property value="0" name="Bin_Min_Channel_3"/>
+                <Property value="1" name="Clr_Dist_Invert_Image"/>
+                <Property value="255" name="Clr_Dist_Max"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_0"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_1"/>
+                <Property value="100" name="Clr_Dist_Weights_Channel_2"/>
+                <Property value="0" name="Clr_Dist_Weights_Channel_3"/>
+                <Property value="1" name="Usr_Weights_Channel_0"/>
+                <Property value="1" name="Usr_Weights_Channel_1"/>
+                <Property value="1" name="Usr_Weights_Channel_2"/>
+                <Property value="0" name="Usr_Weights_Channel_3"/>
             </MonochromeImage>
             <ROIs>
                 <ROI purpose="search" shape="Circle">
-                    <Property name="centerX" value="377.722"/>
-                    <Property name="centerY" value="302.582"/>
-                    <Property name="locked_state" value="0"/>
-                    <Property name="radius" value="80"/>
+                    <Property value="365.57" name="centerX"/>
+                    <Property value="303.797" name="centerY"/>
+                    <Property value="0" name="locked_state"/>
+                    <Property value="80" name="radius"/>
                 </ROI>
             </ROIs>
         </Detector>
